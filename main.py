@@ -1,6 +1,6 @@
 from Morph import server as morph
 from Morph.tools.forge import character
-from Morph.tools.designer import GUI
+#from Morph.tools.designer import GUI
 
 # Create our server instance
 server = morph()
@@ -30,8 +30,8 @@ server.require(user_type = char._type)
 # Here we can create a mini flask server to show us the data about our Morph server
 # Fake user count as I have no way to test it yet!
 server.users = 20
-ourgui = GUI(server)
-ourgui.open_gui()
+#ourgui = GUI(server)
+#ourgui.open_gui()
 
 # Custom function
 # Grab the users connected on our custom event
